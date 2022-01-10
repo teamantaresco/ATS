@@ -66,12 +66,12 @@ header {
     border-radius: 5px;
 }
 .header-content h1 {
-    font-size: 7vmin;
+    font-size: 10vmin;
     margin-top: 50px;
     margin-bottom: 30px;
 }
 .ctn {
-    padding: 8px 15px;
+    padding: 9px 18px;
     background: red;
     border-radius: 30px;
     color: whitesmoke;
