@@ -217,6 +217,9 @@ body2{
 
 
 @media only screen and (max-width:850px){
+    .header-content h1 {
+        font-size: 7vmin;
+    }
     .menu-btn {
         display: block;
     }
