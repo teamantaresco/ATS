@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Team Antares</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <nav class="navbar">
+            <h1 class="logo">ANTARES</h1>
+            <ul class="nav-links">
+                <li class="active"><a href="#"></a>HOME</li>
+                <li class="active"><a href="#"></a>ROSTER</li>
+                <li class="active"><a href="#"></a>EVENTS</li>
+                <li class="active"><a href="#"></a>NEWS</li>
+                <li class="active"><a href="#"></a>WHAT IS ANTARES</li>
+            </ul>
+            <img src="./images/menu-btn.png" alt="" class="menu-btn">
+        </nav>
+
+        <header>
+            <div class="header-content">
+                <h2>TEAM ANTARES</h2>
+                <div class="line"></div>
+                <h1>Welcome to the family</h1>
+                <a href="#" class="ctn">ANTARES FEED</a>
+            </div>
+        </header>
+
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+
+            menuBtn.addEventListener('click',()=>{
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+    </body>
+
+        <body2>
+        <div class="slider">
+            <div class="slides">
+                
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="./images/pic-1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./images/pic-2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./images/pic-3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./images/pic-4.png" alt="">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+
+            <section>
+                <div class="title">
+                    <h1>Meet Antares' Family</h1>
+                </div>
+            </section>
+
+            <script type="text/javascript">
+                var counter = 1
+                setInterval(function(){
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if(counter > 4){
+                        counter = 1;
+                    }
+                }, 5000);
+            </script>
+        </div>
+    </body2>
+
+    <body3>
+        <div class="text-box">
+            <h1>Meet Antares' Family</h1>
+        </div>
+    </body3>
+    
+</html>
