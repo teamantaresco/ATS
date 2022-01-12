@@ -7,7 +7,7 @@
 }
 body {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./images/about\ bckground.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./images/banner.png);
     padding: 0;
 }
 
@@ -43,7 +43,7 @@ ul {
 header {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./images/about\ bckground.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./images/banner.png);
     background-position: bottom;
     background-size: cover;
     display: flex;
